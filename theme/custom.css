@@ -1,0 +1,131 @@
+/* Programmatically made by Tummanoon Wanchaem. 
+- January 18, 2018.
+No additional references whatsoever. */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-weight: 600;
+    color: darkslategray;
+    cursor: pointer;
+}
+
+footer{
+    margin: 80px 0px 0px 16px;
+}
+
+.selected{
+    background-color: slateblue;
+    color: white;
+}
+
+.rect{
+    border-radius: 14px;
+    width: 130px;
+    height: 130px;
+    background-color: limegreen;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.bg-black{
+    background-color: rgb(24, 24, 24);
+}
+
+.bg-white{
+    background-color: whitesmoke;
+    padding: 7px 0px;
+}
+
+.a-left{
+    margin-right: 160px;
+    padding: 8px 0px;
+}
+
+.a-right{
+    padding: 8px 8px;
+}
+
+.bg-blue{
+    background-color: slateblue;
+    padding: 12px;
+}
+
+.font-white{
+    color: white;
+    text-align: center;
+}
+
+.font-whitesmoke{
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.push-top{
+    margin-top: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.decor-top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.decor-bottom{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.correct{
+    background: url(tick.svg) no-repeat;
+    background-size: 130px 130px;
+}
+
+.wrong{
+    visibility: hidden;
+}
+
+.gone{
+    margin: -10px -10px;
+    padding: 0px;
+    visibility: collapse;
+}
+
+.collapse{
+    visibility: collapse;
+}
+
+.col{
+    width: 400px;
+}
+
+.col-no{
+    width: 25%;
+}
+
+.col-name{
+    width: 50%;
+}
+
+.col-score{
+    width: 75%;
+}
+
+.table-head{
+    background-color: rgb(80, 80, 80);
+    font-size: 18px;
+    font-weight: bold;
+    height: 38px;
+}
+
+.table-body{
+    background-color: dimgray;
+    font-size: 18px;
+    padding: 4px;
+    height: 28px;
+}

@@ -1,0 +1,73 @@
+<!--
+/* Purely-Programmatically made by Tummanoon Wanchaem. 
+- January 18, 2018.
+No additional references whatsoever.
+Except the "tick" icon which is downloed from internet */
+
+<div>Tick icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></span>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tummanoob Color Game</title>
+    <link rel="stylesheet" href="theme/custom.css">
+</head>
+<body class="bg-black">
+    <div>
+        <div class="bg-blue text-center decor-top" id="accent">
+            <h3 id="timeout_lab"><span class="font-whitesmoke">TIMEOUT IN: </span><span class="font-whitesmoke" id="timeout">0.0</span><span class="font-whitesmoke"> m</span></h3>
+            <!-- <h3 class="font-whitesmoke">THE TUMMANOOB</h3> -->
+            <h1 class="font-white" id="guess-color">THE TUMMANOOB</h1>
+            <h3><span class="font-whitesmoke" id="score-label">COLOR GUESSING GAME</span></span><span class="font-white" id="score"></span></h3>
+        </div>
+        <div class="bg-white decor-bottom">
+            <center>
+                <span class="a-left" id="new-btn">NEW GAME</span>
+                <span class="a-right" id="easy-btn">EASY</span>
+                <span class="a-right selected" id="normal-btn">NORM</span>
+                <span class="a-right" id="hard-btn">HARD</span>  
+            </center> 
+        </div>
+    </div>
+    <div class="bg-black push-top">
+        <center>
+            <table id="rect-board">
+                <tr>
+                    <td><div class="rect"></div></td>
+                    <td><div class="rect"></div></td>
+                    <td><div class="rect"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="rect"></div></td>
+                    <td><div class="rect"></div></td>
+                    <td><div class="rect"></div></td>
+                </tr>
+            </table>
+
+            <table id="score-board" class="col font-whitesmoke collapse">
+                <thead class="table-head">
+                    <tr>
+                        <th class="col-no">Rounds</th>
+                        <!-- <th class="col-name">Name</th> -->
+                        <th class="col-score">Scores</th>
+                    </tr>
+                </thead>
+                <tbody id="score-list" class="table-body">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+    <footer>
+        <span class="text-center">Purely-Programmatically, Made by Tummanoon Wanchaem. - Version 2.0</span>
+    </footer>
+
+    <script src="engine/game.js"></script>
+</body>
+</html>
